@@ -7,7 +7,7 @@ trigger: none
 resources:
   pipelines:
   - pipeline: previous-pipeline-trigger   # Name of the pipeline resource
-    source: FirstPipeline # Name of the pipeline referenced by the pipeline resource
+    source: parent # Name of the pipeline referenced by the pipeline resource
     trigger: true # enable the trigger
 
 pool: 
