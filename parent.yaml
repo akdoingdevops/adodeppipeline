@@ -2,10 +2,10 @@
 name: FirstPipeline
 
 trigger:
-- main
+- master
 
-pool:
-  vmImage: ubuntu-latest
+pool: 
+  name: 'akpool'
 
 steps:
 - script: echo This pipeline runs first !
