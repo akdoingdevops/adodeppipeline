@@ -2,7 +2,9 @@
 name: FirstPipeline
 
 trigger:
-- master
+  branches:
+    include:
+      - branch1
 
 pool: 
   name: 'akpool'
